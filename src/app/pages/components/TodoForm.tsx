@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useRecoilState, useSetRecoilState } from 'recoil';
 import { Todo, todoListState, selectedTodoState } from '../../state/todoState';
-import { v4 as uuidv4 } from 'uuid';
 
 const TodoForm: React.FC = () => {
   const [todoList, setTodoList] = useRecoilState(todoListState);
@@ -69,7 +68,7 @@ const TodoForm: React.FC = () => {
       setSelectedTodo(null);
     } else {
       const newTodo: Todo = {
-        id: uuidv4(),
+        id: `id_${Date.now()}_${Math.floor(Math.random() * 1e9)}`,
         title,
         description,
         date,
