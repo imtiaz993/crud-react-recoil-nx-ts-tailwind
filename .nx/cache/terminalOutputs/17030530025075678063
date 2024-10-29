@@ -1,0 +1,15 @@
+[2m> [22mwebpack-cli serve --node-env=development
+
+
+[31m✘[39m webpack v5.95.0 is [31mnot yet supported[39m in the Community edition of [33mConsole Ninja[39m.
+We are working hard on it for you [36mhttps://tinyurl.com/3h9mtwra[39m.
+
+Estimated release dates:
+  - Community users: [36maround 25th November, 2024 [1m(subject to team availability)[22m[39m
+[33m  - PRO users[39m:       [1m[32mpriority access is available now[39m[22m
+
+[webpack-cli] [31mInvalid configuration object. Webpack has been initialized using a configuration object that does not match the API schema.
+ - configuration has an unknown property 'rules'. These properties are valid:
+   object { amd?, bail?, cache?, context?, dependencies?, devServer?, devtool?, entry?, experiments?, extends?, externals?, externalsPresets?, externalsType?, ignoreWarnings?, infrastructureLogging?, loader?, mode?, module?, name?, node?, optimization?, output?, parallelism?, performance?, plugins?, profile?, recordsInputPath?, recordsOutputPath?, recordsPath?, resolve?, resolveLoader?, snapshot?, stats?, target?, watch?, watchOptions? }
+   -> Options object as provided by the user.
+   Did you mean module.rules?[39m

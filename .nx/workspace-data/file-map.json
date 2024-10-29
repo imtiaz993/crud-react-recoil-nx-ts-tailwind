@@ -1,0 +1,248 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.0.6",
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/webpack/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview"
+      }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "name": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [],
+    "projectFileMap": {
+      "my-todo-app": [
+        {
+          "file": ".babelrc",
+          "hash": "13020124393823981135"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "17107242987988535020"
+        },
+        {
+          "file": ".prettierignore",
+          "hash": "14688272390704683536"
+        },
+        {
+          "file": ".prettierrc",
+          "hash": "16267754514737964994"
+        },
+        {
+          "file": ".vscode/extensions.json",
+          "hash": "4934098906304722861"
+        },
+        {
+          "file": "README.md",
+          "hash": "8240539672848517684"
+        },
+        {
+          "file": "eslint.config.js",
+          "hash": "18136715864555996736",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "jest.config.ts",
+          "hash": "9828807932261317983"
+        },
+        {
+          "file": "jest.preset.js",
+          "hash": "9430166341120122740",
+          "deps": [
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "nx.json",
+          "hash": "4259031213534787466"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "18222704717675418237"
+        },
+        {
+          "file": "package.json",
+          "hash": "13129773371868397195",
+          "deps": [
+            "npm:@babel/core",
+            "npm:@babel/preset-react",
+            "npm:@eslint/js",
+            "npm:@nx/eslint",
+            "npm:@nx/eslint-plugin",
+            "npm:@nx/jest",
+            "npm:@nx/js",
+            "npm:@nx/react",
+            "npm:@nx/web",
+            "npm:@nx/webpack",
+            "npm:@nx/workspace",
+            "npm:@pmmmwh/react-refresh-webpack-plugin",
+            "npm:@svgr/webpack",
+            "npm:@swc-node/register",
+            "npm:@swc/cli",
+            "npm:@swc/core",
+            "npm:@swc/helpers",
+            "npm:@testing-library/react",
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:autoprefixer",
+            "npm:babel-jest",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-import",
+            "npm:eslint-plugin-jsx-a11y",
+            "npm:eslint-plugin-react",
+            "npm:eslint-plugin-react-hooks",
+            "npm:jest",
+            "npm:jest-environment-jsdom",
+            "npm:nx",
+            "npm:postcss",
+            "npm:prettier",
+            "npm:react-refresh",
+            "npm:tailwindcss",
+            "npm:ts-jest",
+            "npm:ts-node",
+            "npm:tslib",
+            "npm:typescript",
+            "npm:typescript-eslint",
+            "npm:webpack-cli",
+            "npm:react",
+            "npm:react-dom",
+            "npm:recoil"
+          ]
+        },
+        {
+          "file": "postcss.config.js",
+          "hash": "2759402739052110475"
+        },
+        {
+          "file": "project.json",
+          "hash": "16914366206154383345"
+        },
+        {
+          "file": "src/app/app.spec.tsx",
+          "hash": "3004388244613641174",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "src/app/app.tsx",
+          "hash": "6640419084704930195"
+        },
+        {
+          "file": "src/app/common/DeleteConfirmationModal.tsx",
+          "hash": "6013821823237681963",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "src/app/pages/Todo.tsx",
+          "hash": "3498143701834945586"
+        },
+        {
+          "file": "src/app/pages/components/TodoForm.tsx",
+          "hash": "7037812065241061077",
+          "deps": [
+            "npm:react",
+            "npm:recoil"
+          ]
+        },
+        {
+          "file": "src/app/pages/components/TodoItem.tsx",
+          "hash": "10153535839280381725",
+          "deps": [
+            "npm:react",
+            "npm:recoil"
+          ]
+        },
+        {
+          "file": "src/app/pages/components/TodoList.tsx",
+          "hash": "18070581319307022218",
+          "deps": [
+            "npm:react",
+            "npm:recoil"
+          ]
+        },
+        {
+          "file": "src/app/state/todoState.ts",
+          "hash": "14283087324771462979",
+          "deps": [
+            "npm:recoil"
+          ]
+        },
+        {
+          "file": "src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "src/index.html",
+          "hash": "5656665645491051933"
+        },
+        {
+          "file": "src/main.tsx",
+          "hash": "452624147254494775",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "src/styles.css",
+          "hash": "2866083945719690482"
+        },
+        {
+          "file": "tailwind.config.js",
+          "hash": "13090734457927965885",
+          "deps": [
+            "npm:@nx/react"
+          ]
+        },
+        {
+          "file": "tsconfig.app.json",
+          "hash": "10633172385801628253"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "10776750329763242930"
+        },
+        {
+          "file": "tsconfig.spec.json",
+          "hash": "10598618129870452834"
+        },
+        {
+          "file": "webpack.config.js",
+          "hash": "5074484699016570524",
+          "deps": [
+            "npm:@nx/webpack",
+            "npm:@nx/react"
+          ]
+        }
+      ]
+    }
+  }
+}

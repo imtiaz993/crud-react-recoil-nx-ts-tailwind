@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx serve",
+    "startTime": "2024-10-29T07:38:14.657Z",
+    "endTime": "2024-10-29T07:38:20.186Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "my-todo-app:serve",
+      "target": "serve",
+      "projectName": "my-todo-app",
+      "hash": "17030530025075678063",
+      "startTime": "2024-10-29T07:38:14.681Z",
+      "endTime": "2024-10-29T07:38:20.184Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}
