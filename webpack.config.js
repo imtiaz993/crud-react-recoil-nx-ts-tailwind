@@ -6,16 +6,6 @@ module.exports = {
   output: {
     path: join(__dirname, './dist/my-todo-app'),
   },
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        enforce: 'pre',
-        use: ['source-map-loader'],
-        exclude: [/node_modules\/uuid/], // Ignore source maps for uuid
-      },
-    ],
-  },
   devServer: {
     port: 4200,
     historyApiFallback: {
